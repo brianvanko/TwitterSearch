@@ -1,0 +1,13 @@
+{
+  "name": "twitterApp",
+  "version": "0.1.0",
+  "authors": [
+    "Brian Vanko <brianvanko@gmail.com>"
+  ],
+  "description": "Twitter app",
+  "license": "MIT",
+  "dependencies": {
+    "angular-material": "~0.5.1",
+    "angular-socket-io": "~0.6.0"
+  }
+}
