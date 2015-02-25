@@ -5,6 +5,7 @@ var path = require('path');
 var io = require('socket.io')(server);
 var Twit = require('twit');
 var config = require('./config');
+var port = process.env.PORT || 3000;
 var searches = {};
  
 var T = new Twit({
@@ -73,5 +74,5 @@ io.on('connection', function(socket) {
 
 });
 
-server.listen(3000);
-console.log('Server listening on port 3000');
+server.listen(port);
+//console.log('Server listening on port 3000');
